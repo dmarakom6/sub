@@ -1,2 +1,4 @@
 .python-version
-notes/**
+/notes/
+__pycache__
+*.pyc
