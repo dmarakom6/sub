@@ -31,7 +31,7 @@ class Subscription:
         Sets subscription end date or updates it.
         """
 
-        self.ends_on = date.today() if ends_on is None else ends_on
+        self.ends_on = date.today() if ends_on is None else ends_on        
     
 
 

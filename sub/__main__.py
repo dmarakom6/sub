@@ -1,3 +1,5 @@
 import sys
-from sub.analyzer import analyze
-print(analyze(sys.argv[1:])) #Test
+from analyzer import analyze
+from runner import subscription
+
+print(analyze(sys.argv[1:])) #Testing analyzer
